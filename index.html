@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>    
+    <body>      
+        <h1 id="title">Regester Form</h1>
+        <p id="description">Please fill out the following information</p>
+      
+      <div class="container">
+        <form id="survey-form">
+          <div class="NEA">
+            <div class="grp">
+              <label for="name" id="name-label">Full Name:</label>
+              <input type="name" id="name" placeholder="Full name" required>
+            </div>
+         
+            <div class="grp">
+              <label for="email" id="email-label">Email:</label>
+              <input type="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="grp">
+              <label  for="number" id="number-label" >Age:</label>
+              <input type="number" id="number" max="120" min="13" placeholder="Enter your age here">
+            </div>
+      
+          </div>
+    
+            <div class="grp">
+              <legend>favorite place to learn html & css : </legend>
+              <select id="dropdown">
+                 <option disabled selected value>(Pick One)</option>
+                 <option value="1">codecamp</option>
+                 <option value="2">youtube</option>
+                 <option value="3">school</option>
+                 <option value="4">other</option>
+              </select>
+            </div>
+
+            <div class="grp">
+               <legend>Choos your gender :</legend>
+               <label for="m">
+               <input type="radio" name="m/f" id="m" value="gender-m"> Male</label>
+
+               <label for="f">
+               <input type="radio" name="m/f" id="f" value="gende-f"> Female</label>
+            </div>
+            <div class="grp">
+               <legend>What are your favorite places to learn?</legend>
+              <div class="box">
+                <label><input value="with frends" type="checkbox">With frends</label>
+
+                <label><input value="alone" type="checkbox">Alone</label>
+
+                <label><input value="outside" type="checkbox">Outside</label>
+
+                <label><input value="inside" type="checkbox">Inside</label>
+
+                <label><input value="previt" type="checkbox">Previt</label>
+
+                <label><input value="public" type="checkbox">Publice</label>
+              </div>
+            </div>
+
+            <div class="grp">
+              <legend >tell us about you:</legend>
+              <textarea rows="4" cols="40" placeholder="write here..."></textarea>  
+            </div>
+            <div class="grp">
+              <div class="register" id="reg">
+                 <input type="submit" value="Register"></div>
+              </div>
+            </div>
+        </form>
+      </div>
+     
+
+    </body>
+  </html>
+
+
+
